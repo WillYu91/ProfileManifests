@@ -13,7 +13,7 @@
 	<key>pfm_interaction</key>
 	<string>undefined</string>
 	<key>pfm_last_modified</key>
-	<date>2019-11-07T15:29:15Z</date>
+	<date>2023-11-23T13:57:28Z</date>
 	<key>pfm_macos_max</key>
 	<string>10.12.6</string>
 	<key>pfm_macos_min</key>
@@ -141,13 +141,13 @@ The payload organization for a payload need not match the payload organization i
 			<string>Set to ʼOnʼ to enable FileVault. Set to ʼOffʼ to disable FileVault. This value is required.</string>
 			<key>pfm_name</key>
 			<string>Enable</string>
-			<key>pfm_require</key>
-			<string>always</string>
 			<key>pfm_range_list</key>
 			<array>
 				<string>On</string>
 				<string>Off</string>
 			</array>
+			<key>pfm_require</key>
+			<string>always</string>
 			<key>pfm_title</key>
 			<string>Enable FileVault 2</string>
 			<key>pfm_type</key>
@@ -318,6 +318,19 @@ Availability: Available in macOS 10.10 and later.</string>
 			<key>pfm_type</key>
 			<string>boolean</string>
 		</dict>
+		<dict>
+			<key>pfm_default</key>
+			<false/>
+			<key>pfm_description</key>
+			<string>If 'true', and this payload is installed after enrolling with MDM in Setup Assistant, it requests Setup Assistant to enable FileVault at setup time. In this case, the system also ignores all other keys in this payload, except for 'ShowRecoveryKey'.
+To use this, enable the Await Device Configured DEP configuration option, send this profile with this key set, before sending the DeviceConfiguredCommand.</string>
+			<key>pfm_macos_min</key>
+			<string>14.0</string>
+			<key>pfm_name</key>
+			<string>ForceEnableInSetupAssistant</string>
+			<key>pfm_type</key>
+			<string>boolean</string>
+		</dict>
 	</array>
 	<key>pfm_targets</key>
 	<array>
@@ -328,6 +341,6 @@ Availability: Available in macOS 10.10 and later.</string>
 	<key>pfm_unique</key>
 	<true/>
 	<key>pfm_version</key>
-	<integer>5</integer>
+	<integer>6</integer>
 </dict>
 </plist>

@@ -168,6 +168,13 @@
 			<key>path</key>
 			<string>Icons/ManagedPreferencesApplications/com.agilebits.onepassword7.png</string>
 		</dict>
+		<key>com.alectrona.patch</key>
+		<dict>
+			<key>hash</key>
+			<string>5e94e30ded722510d96bf9e5a6827974</string>
+			<key>path</key>
+			<string>Icons/ManagedPreferencesApplications/com.alectrona.patch.png</string>
+		</dict>
 		<key>com.apple.Compressor</key>
 		<dict>
 			<key>hash</key>
@@ -497,6 +504,13 @@
 			<key>path</key>
 			<string>Icons/ManagedPreferencesApplications/com.pratikkumar.airserver-mac.png</string>
 		</dict>
+		<key>com.secondsonconsulting.baseline</key>
+		<dict>
+			<key>hash</key>
+			<string>ed5a43a14aa821fb67aeb6c1d1f03e80</string>
+			<key>path</key>
+			<string>Icons/ManagedPreferencesApplications/com.secondsonconsulting.baseline.png</string>
+		</dict>
 		<key>com.secondsonconsulting.renew</key>
 		<dict>
 			<key>hash</key>
@@ -587,6 +601,20 @@
 			<string>adc42d6f928b3be696bf0739ea9dfa04</string>
 			<key>path</key>
 			<string>Icons/ManagedPreferencesApplications/fr.handbrake.HandBrake.png</string>
+		</dict>
+		<key>io.tailscale.ipn.macos</key>
+		<dict>
+			<key>hash</key>
+			<string>8421305dde20b00c4f9980873d7151cf</string>
+			<key>path</key>
+			<string>Icons/ManagedPreferencesApplications/io.tailscale.ipn.macos.png</string>
+		</dict>
+		<key>io.tailscale.ipn.macsys</key>
+		<dict>
+			<key>hash</key>
+			<string>8421305dde20b00c4f9980873d7151cf</string>
+			<key>path</key>
+			<string>Icons/ManagedPreferencesApplications/io.tailscale.ipn.macsys.png</string>
 		</dict>
 		<key>menu.nomad.NoMADPro</key>
 		<dict>
@@ -1398,6 +1426,6 @@
 		</dict>
 	</dict>
 	<key>date</key>
-	<date>2023-04-09T16:04:15Z</date>
+	<date>2023-11-29T10:45:25Z</date>
 </dict>
 </plist>
